@@ -11,4 +11,10 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Love - Love");
   });
 
+  //Juegador 1 anota 1 vez
+  it("Cuando jugador 1 anota 1 vez, se le suma +15 en el marcador", () => {
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("15 - Love");
+  });
+
 });
