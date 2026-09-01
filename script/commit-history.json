@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-01T14:14:48.000Z",
+      "message": "feat: Inicio del juego con marcador en 'Love - Love'",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 26,
+      "deletions": 14,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
