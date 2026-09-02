@@ -6,8 +6,13 @@ class Tennis {
     }
 
     score() {
-      if (this.p1 >= 3 && this.p2 >= 3 && this.p1 === this.p2) {
-        return "Deuce";
+      if (this.p1 >= 3 && this.p2 >= 3) {
+        if (this.p1 === this.p2) 
+          return "Deuce";
+
+      const diff = this.p1 - this.p2;
+        if (diff === 1) return "Advantage for Player 1";
+        if (diff === -1) return "Advantage for Player 2";
       }
 
       if (this.p1 >= 4) return "Game for Player 1";

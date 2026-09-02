@@ -180,9 +180,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a50102e9b4affefcdfc8f8a64a1d88bac9b3709",
     "commitName": "feat: victorias normales de un jugador",
     "commitTimestamp": 1788329771856,
     "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 2,
+    "numTotalTests": 13,
+    "timestamp": 1788329876411,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 3,
+    "numTotalTests": 13,
+    "timestamp": 1788330074856,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788330209367,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ventaja si un jugador anota un punto extra despues de Deuce",
+    "commitTimestamp": 1788330336729,
+    "testId": 7
   }
 ]

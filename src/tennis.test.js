@@ -66,5 +66,17 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 2");
   });
 
+  it("Cuando jugador 1 anota 4 veces y jugador 2 anota 3 veces: 'Advantage for Player 1'", () => {
+    for(let i=0; i<3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores();
+    expect(tennis.score()).toEqual("Advantage for Player 1");
+  });
+
+  it("Cuando jugador 1 anota 3 veces y jugador 2 anota 4 veces: 'Advantage for Player 2'", () => {
+    for(let i=0; i<3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Advantage for Player 2");
+  });
+
 
 });
