@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6d1bdd9cb073d84e3e63be6f167f6a0bc2e6740a",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-02T03:07:38.000Z",
       "message": "test: puntos basicos del jugador 1",
-      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/6d1bdd9cb073d84e3e63be6f167f6a0bc2e6740a"
     },
     "stats": {
       "total": 10,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-02T03:21:47.000Z",
+      "message": "feat: puntos basicos del jugador 2",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 20,
+      "deletions": 2,
+      "date": "2026-09-02"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

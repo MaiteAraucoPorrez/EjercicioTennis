@@ -6,12 +6,15 @@ class Tennis {
     }
 
     score() {
-      //Si el jugador 1 anota 1 vez, se le suma +15 en el marcador
-      return this.scoreNames[this.p1] + " - Love";
+      return this.scoreNames[this.p1] + " - " + this.scoreNames[this.p2];
     }
 
     player1Scores() {
       this.p1++;
+    }
+
+    player2Scores() {
+      this.p2++;
     }
 
 }

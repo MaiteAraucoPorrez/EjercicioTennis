@@ -27,4 +27,19 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("40 - Love");
   });
 
+  it("Cuando jugador 2 anota 1 vez: 15 puntos en el marcador", () => {
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Love - 15");
+  });
+
+  it("Cuando jugador 2 anota por segunda vez: 30 puntos en el marcador", () => {
+    tennis.player2Scores(); tennis.player2Scores();
+    expect(tennis.score()).toEqual("Love - 30");
+  });
+
+  it("Cuando jugador 2 anota por tercera vez: 40 puntos en el marcador", () => {
+    for(let i=0; i<3; i++) tennis.player2Scores();
+    expect(tennis.score()).toEqual("Love - 40");
+  });
+
 });

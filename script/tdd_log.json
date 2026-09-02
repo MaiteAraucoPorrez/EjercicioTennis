@@ -100,9 +100,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6d1bdd9cb073d84e3e63be6f167f6a0bc2e6740a",
     "commitName": "test: puntos basicos del jugador 1",
     "commitTimestamp": 1788318459554,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 3,
+    "numTotalTests": 7,
+    "timestamp": 1788318920132,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788319155954,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: puntos basicos del jugador 2",
+    "commitTimestamp": 1788319308395,
+    "testId": 3
   }
 ]
