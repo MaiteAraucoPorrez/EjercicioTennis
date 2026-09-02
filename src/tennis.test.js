@@ -56,5 +56,15 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Deuce");
   });
 
+  it("Cuando jugador 1 anota 4 veces: 'Game for Player 1'", () => {
+    for(let i=0; i<4; i++) tennis.player1Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
+  });
+
+  it("Cuando jugador 2 anota 4 veces: 'Game for Player 2'", () => {
+    for(let i=0; i<4; i++) tennis.player2Scores();
+    expect(tennis.score()).toEqual("Game for Player 2");
+  });
+
 
 });

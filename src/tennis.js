@@ -10,6 +10,9 @@ class Tennis {
         return "Deuce";
       }
 
+      if (this.p1 >= 4) return "Game for Player 1";
+      if (this.p2 >= 4) return "Game for Player 2";
+
       return this.scoreNames[this.p1] + " - " + this.scoreNames[this.p2];
     }
 

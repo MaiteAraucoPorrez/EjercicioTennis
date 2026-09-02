@@ -158,9 +158,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "31ba5519162815f87d3b4d98916424a9953bc150",
     "commitName": "feat: Deuce si ambos jugadores anotan 3 veces: '40 - 40'",
     "commitTimestamp": 1788328290813,
     "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 2,
+    "numTotalTests": 11,
+    "timestamp": 1788328756404,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788329693574,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: victorias normales de un jugador",
+    "commitTimestamp": 1788329771856,
+    "testId": 6
   }
 ]
