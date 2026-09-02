@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "49a396d48f17dfdf2ddc8d3349c7b2fae4d095ff",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-02T05:29:29.000Z",
       "message": "test: puntuacion mixta",
-      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/49a396d48f17dfdf2ddc8d3349c7b2fae4d095ff"
     },
     "stats": {
       "total": 6,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-02T05:51:29.000Z",
+      "message": "feat: Deuce si ambos jugadores anotan 3 veces: '40 - 40'",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-02"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

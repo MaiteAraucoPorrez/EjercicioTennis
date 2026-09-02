@@ -6,6 +6,10 @@ class Tennis {
     }
 
     score() {
+      if (this.p1 >= 3 && this.p2 >= 3 && this.p1 === this.p2) {
+        return "Deuce";
+      }
+
       return this.scoreNames[this.p1] + " - " + this.scoreNames[this.p2];
     }
 

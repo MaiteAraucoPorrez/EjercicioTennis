@@ -136,9 +136,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "49a396d48f17dfdf2ddc8d3349c7b2fae4d095ff",
     "commitName": "test: puntuacion mixta",
     "commitTimestamp": 1788326970560,
     "testId": 4
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788327158641,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788327195649,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Deuce si ambos jugadores anotan 3 veces: '40 - 40'",
+    "commitTimestamp": 1788328290813,
+    "testId": 5
   }
 ]
