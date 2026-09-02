@@ -122,9 +122,23 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b662eab8932f3b6bb89900d5b452ea3f9bfd5528",
     "commitName": "feat: puntos basicos del jugador 2",
     "commitTimestamp": 1788319308395,
     "testId": 3
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788326844044,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: puntuacion mixta",
+    "commitTimestamp": 1788326970560,
+    "testId": 4
   }
 ]
