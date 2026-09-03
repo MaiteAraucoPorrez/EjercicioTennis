@@ -10,9 +10,11 @@ class Tennis {
         if (this.p1 === this.p2) 
           return "Deuce";
 
-      const diff = this.p1 - this.p2;
+        const diff = this.p1 - this.p2;
         if (diff === 1) return "Advantage for Player 1";
         if (diff === -1) return "Advantage for Player 2";
+
+        return diff >= 2 ? "Game for Player 1" : "Game for Player 2";
       }
 
       if (this.p1 >= 4) return "Game for Player 1";

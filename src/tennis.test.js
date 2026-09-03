@@ -78,5 +78,20 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Advantage for Player 2");
   });
 
+  it("Cuando los jugadores estan en Deuce y jugador 1 anota dos veces seguidas: 'Game for Player 1'", () => {
+    for(let i=0; i<3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores(); tennis.player1Scores();
+    expect(tennis.score()).toEqual("Game for Player 1");
+  });
+
+  it("Cuando el juego se alarga en Deuce y jugador 2 gana con 6 puntos sobre 4", () => {
+    for(let i=0; i<4; i++) {
+      tennis.player1Scores();
+    }
+    for(let i=0; i<6; i++) {
+      tennis.player2Scores();
+    }
+    expect(tennis.score()).toEqual("Game for Player 2");
+  });
 
 });

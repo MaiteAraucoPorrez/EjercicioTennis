@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "020e147e6b68f1f4f6fe6b347eeaf08ea0df3c6a",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-02T06:25:35.000Z",
       "message": "feat: ventaja si un jugador anota un punto extra despues de Deuce",
-      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/020e147e6b68f1f4f6fe6b347eeaf08ea0df3c6a"
     },
     "stats": {
       "total": 21,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-03T02:12:18.000Z",
+      "message": "feat: victorias post-Deuce",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
