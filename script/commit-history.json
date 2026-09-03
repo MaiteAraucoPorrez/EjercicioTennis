@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8218834bb1499338bc49b94ea5fa7c31e19e5b6b",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-03T02:19:38.000Z",
       "message": "test: regreso a Deuce",
-      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/8218834bb1499338bc49b94ea5fa7c31e19e5b6b"
     },
     "stats": {
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-03T02:47:35.000Z",
+      "message": "feat: conectar index y presenter con la lógica de TennisGame",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 19,
+      "deletions": 21,
       "date": "2026-09-03"
     },
     "coverage": 100,
