@@ -248,9 +248,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cde56d7385d13f6f60fe2055e2b698e918306678",
     "commitName": "feat: victorias post-Deuce",
     "commitTimestamp": 1788401539163,
     "testId": 8
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788401913068,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: regreso a Deuce",
+    "commitTimestamp": 1788401978758,
+    "testId": 9
   }
 ]

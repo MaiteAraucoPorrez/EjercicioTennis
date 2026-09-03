@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cde56d7385d13f6f60fe2055e2b698e918306678",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-03T02:12:18.000Z",
       "message": "feat: victorias post-Deuce",
-      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/cde56d7385d13f6f60fe2055e2b698e918306678"
     },
     "stats": {
       "total": 19,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-03T02:19:38.000Z",
+      "message": "test: regreso a Deuce",
+      "url": "https://github.com/MaiteAraucoPorrez/EjercicioTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

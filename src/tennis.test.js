@@ -94,4 +94,11 @@ describe("Tennis Scorer", () => {
     expect(tennis.score()).toEqual("Game for Player 2");
   });
 
+  //Extra
+  it("Cuando jugador 1 tiene ventaja y jugador 2 anota, regresan a 'Deuce'", () => {
+    for(let i=0; i<3; i++) { tennis.player1Scores(); tennis.player2Scores(); }
+    tennis.player1Scores();
+    tennis.player2Scores();
+    expect(tennis.score()).toEqual("Deuce");
+  });
 });
